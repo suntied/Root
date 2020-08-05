@@ -13,7 +13,7 @@ public class User {
     @NotBlank
     private String email;
     private String password;
-
+    public User(){}
     public User(Long id, @Email @NotBlank String email, String password) {
         this.id = id;
         this.email = email;

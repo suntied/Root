@@ -15,7 +15,7 @@ import java.util.Map;
 @CrossOrigin(origins = "*")
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("")
 public class MovieController {
     @Autowired
     private MovieRepository movieRepository;
